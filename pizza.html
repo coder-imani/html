@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the pizza city</h1>
+    <main>
+        <h2>Make your pizza order today with the best pizza place in town</h2>
+        <form>
+            <label for="name">Customer name</label>
+          <input type="text" id="name" placeholder="enter your name" required>
+          <label for="email">Customer email</label>
+          <input type="text" id="email" placeholder="enter your email" required>
+          <label for="size">Choose a size</label>
+          <select name="size" id="size">
+            <option value="small">small</option>
+            <option value="medium">medium</option>
+            <option value="large">large</option>
+            <option value="extralarge">extra large</option>
+            
+          </select>
+          <label for="toppings">toppings</label>
+          <div class="checkbox">
+            <label>
+                <input type="checkbox" name="toppings" value="peperroni">
+             pepperoni
+            </label>
+            <label>
+                <input type="checkbox" name="toppings" value="cheese">
+                chesse
+            </label>
+            <label>
+                <input type="checkbox" name="toppings" value="tomatoes">
+                tomatoes
+            </label>
+            <label>
+                <input type="checkbox" name="toppings" value="mushrooms">
+                mushrooms
+            </label>
+          </div>
+          <label for="instruction">special instructions</label>
+          <textarea name="instruction" id="instruction" row="3"></textarea>
+          <button>Order now</button>
+        </form>
+    </main>
+</body>
+</html>
